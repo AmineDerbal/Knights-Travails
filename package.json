@@ -1,0 +1,27 @@
+{
+  "name": "knights-travails",
+  "version": "1.0.0",
+  "description": "",
+  "type" : "module",
+  "main": "knights-travail.js",
+  "scripts": {
+    "start": "node driver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyu931/Knights-Travails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyu931/Knights-Travails/issues"
+  },
+  "homepage": "https://github.com/kyu931/Knights-Travails#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
