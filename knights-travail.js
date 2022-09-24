@@ -51,10 +51,8 @@ const knightMoves = (startPos, targetPos, queue = []) => {
     }
   }
 
-  if (result === undefined) {
-    let temp = queue.shift();
-    result = knightMoves(temp, targetPos, queue);
-  }
+  let temp = queue.shift();
+  result = knightMoves(temp, targetPos, queue);
 
   return result;
 };
